@@ -1,0 +1,128 @@
+body {
+    background-image: url("image/1774195.jpg");
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+    height: 100%;
+}
+
+#laby{
+    margin: auto;
+    border-collapse: collapse;
+    border: black solid 12px;
+    border-style:groove;
+    
+    
+}
+
+tr {
+    margin: 0;
+}
+
+#timer {
+    display: block;
+    width: 50px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-left: 47%;
+}
+#mur{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image: url("image/mur_pierre.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+#chemin{
+    background-color: white;
+    background-image: url("image/sol.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+#etage{
+    background-color: greenyellow;
+    background-image: url("image/teleporteur2.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+#piege{
+    background-color: blue;
+    background-image: url("image/vortex5.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: transparent;
+}
+
+#perso{
+    background-image: url("image/adam.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+#entrer{
+    background-image: url("image/porte.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+#fin{
+    background-color: violet;
+    background-image: url("image/teleporteur2.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+#btnStart{
+    width: 500px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    background-color:rgba(255, 255, 255, 0.151);
+    border: none;
+    font-size: 100px;
+}
+
+#btnStart:hover{
+    background-color:rgba(255, 255, 255, 0.657); 
+}
+
+h1{
+    display: block;
+    margin-left: 30%;
+    color: white;
+}
+
+#message{
+    color: black;
+    font-size: 20px;
+    margin-left: 47%;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius:  90px;
+    visibility: hidden;
+}
+
+img{
+    position: absolute;
+    top:200px;
+    bottom: 0;
+    left: 120px;
+    right: 0;
+    width:cover;
+    height: cover;
+    border:groove;
+}
+
